@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck"
+android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter text to generate"
+        android:id="@+id/text_id"
+        android:background="@layout/rounded_edittext"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/generatebtn"
+        android:text="generate"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/qrview"/>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/images"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/generaot"
+        android:layout_width="170dp"
+
+        android:layout_height="150dp"
+        android:background="@drawable/create" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/read"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/scan"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+       />
+</LinearLayout>
